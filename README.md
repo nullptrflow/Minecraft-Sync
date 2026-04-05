@@ -12,7 +12,6 @@ High-performance Minecraft packet proxy designed for seamless traffic synchroniz
 
 ---
 
-### Features 🚀
 ### Disclaimer
 This project is for educational purposes only. It is not affiliated with, endorsed by, or associated with Mojang Studios or Microsoft Corporation. Use this software at your own risk. I am not responsible for any bans or issues caused by using this tool on official servers.
 

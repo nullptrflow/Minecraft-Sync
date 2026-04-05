@@ -1,6 +1,7 @@
 # Minecraft-Sync
 
 A high-performance C++ network proxy for Minecraft that synchronizes multiple clients and handles real-time packet manipulation. It redirects local traffic to a target server through handshake modification.
+
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.8--1.20-blue?style=for-the-badge&logo=minecraft&logoColor=white)

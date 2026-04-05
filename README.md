@@ -14,40 +14,23 @@ This project is for educational purposes only. It is not affiliated with, endors
 ---
 
 ### Features
-
 - Handshake Injection: Modifies the outgoing handshake packet to inject the target server IP and redirect traffic seamlessly.
 - - Client Synchronization: Supports up to 2 concurrent clients with primary/secondary control system.
   - - Low Latency: Written in pure C++ using WinSock2 and asynchronous I/O (select) for minimal overhead.
     - - Auto-Reconnect Loop: Automatically resets connection state and waits for new incoming sessions if a connection is lost.
      
       - ### Version Support
-      - - Tested on: Minecraft Java Edition 1.8.x - 1.20.x (and any versions using standard VarInt packet handling).
+      - - Tested on: Minecraft Java Edition 1.8.x - 1.20.x.
         - - Note: Works with most modern versions due to generic packet forwarding.
          
-          - ### Installation & Setup
-         
-          - 1. Build the Project:
-            2.    - Open the solution in Visual Studio.
-                  -    - Ensure you are targeting x86 or x64 with Ws2_32.lib linked.
-                       -    - Build in Release mode for performance.
-                        
-                            - 2. Configure server.settings:
-                              3.    Create a file named server.settings in the same folder as the executable with the following format (space or newline separated):
-                              4.   target_server_ip   local_listen_port   target_server_port
-                              5.      Example: mc.hypixel.net 25565 25565
-                             
-                              6.  3. Usage:
-                                  4.    - Run the executable (as administrator if using protected ports).
-                                        -    - Connect your Minecraft client to localhost:your_port.
-                                         
-                                             - ---
+          - ---
 
-                                             ### Security & Verification
-                                             To ensure the integrity of the build, please verify the binary against the following details:
+          ### Security & Verification
+          To ensure the integrity of the build, please verify the binary against the following details:
 
-                                             - SHA256: [PLEASE_INSERT_SHA256_HERE]
-                                             - - VirusTotal Report: [Scan Link Placeholder]
-                                              
-                                               - ---
-                                               Created by [nullptrflow](https://github.com/nullptrflow)
-                                               
+          - **SHA256:** `D90168BDD70C8ED062CCA654E212F11B73A0AB6AC0BC09FD5A7D5F195ED2DEDD`
+          - - **VirusTotal:** [Scan Report](https://www.virustotal.com/gui/file/d90168bdd70c8ed062cca654e212f11b73a0ab6ac0bc09fd5a7d5f195ed2dedd)
+           
+            - ---
+            Created by [nullptrflow](https://github.com/nullptrflow)
+            
